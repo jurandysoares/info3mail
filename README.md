@@ -43,7 +43,7 @@ Abra um terminal (No Windows, use o [Git Bash](https://git-scm.com/downloads/win
 
    `cat -n ~/.ssh/authorized_keys`
 
-## Digrama dos passos executados
+## Digrama de sequência
  
 ```mermaid
 sequenceDiagram
