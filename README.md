@@ -62,11 +62,11 @@ sequenceDiagram
 
    ```mermaid
    graph LR
-     Brasil --> Norte
-     Brasil --> Nordeste
-     Brasil --> CentroOeste
-     Brasil --> Sudeste
-     Brasil --> Sul
+     BR["🇧🇷 Brasil"] --> N["Norte"]
+     BR --> NE["Nordeste"]
+     BR --> CO["Centro-Oeste"]
+     BR --> SE["Sudeste"]
+     BR --> S["Sul"]
    ```
 
 2. Adicione os estados a seu grafo
@@ -76,42 +76,42 @@ sequenceDiagram
 
 ```mermaid
 graph LR
-  Brasil --> Norte
-  Brasil --> Nordeste
-  Brasil --> CentroOeste
-  Brasil --> Sudeste
-  Brasil --> Sul
+  BR["🇧🇷 Brasil"] --> N["Norte"]
+  BR --> NE["Nordeste"]
+  BR --> CO["Centro-Oeste"]
+  BR --> SE["Sudeste"]
+  BR --> S["Sul"]
 
-  Norte --> Acre
-  Norte --> Amapa
-  Norte --> Amazonas
-  Norte --> Para
-  Norte --> Rondonia
-  Norte --> Roraima
-  Norte --> Tocantins
+  N --> AC["Acre"]
+  N --> AP["Amapá"]
+  N --> AM["Amazonas"]
+  N --> PA["Pará"]
+  N --> RO["Rondônia"]
+  N --> RR["Roraima"]
+  N --> TO["Tocantins"]
 
-  Nordeste --> Alagoas
-  Nordeste --> Bahia
-  Nordeste --> Ceara
-  Nordeste --> Maranhao
-  Nordeste --> Paraiba
-  Nordeste --> Pernambuco
-  Nordeste --> Piaui
-  Nordeste --> RioGrandeDoNorte
-  Nordeste --> Sergipe
+  NE --> AL["Alagoas"]
+  NE --> BA["Bahia"]
+  NE --> CE["Ceará"]
+  NE --> MA["Maranhão"]
+  NE --> PB["Paraíba"]
+  NE --> PE["Pernambuco"]
+  NE --> PI["Piauí"]
+  NE --> RN["Rio Grande do Norte"]
+  NE --> SEr["Sergipe"]
 
-  CentroOeste --> DistritoFederal
-  CentroOeste --> Goias
-  CentroOeste --> MatoGrosso
-  CentroOeste --> MatoGrossoDoSul
+  CO --> DF["Distrito Federal"]
+  CO --> GO["Goiás"]
+  CO --> MT["Mato Grosso"]
+  CO --> MS["Mato Grosso do Sul"]
 
-  Sudeste --> EspiritoSanto
-  Sudeste --> MinasGerais
-  Sudeste --> RioDeJaneiro
-  Sudeste --> SaoPaulo
+  SE --> ES["Espírito Santo"]
+  SE --> MG["Minas Gerais"]
+  SE --> RJ["Rio de Janeiro"]
+  SE --> SP["São Paulo"]
 
-  Sul --> Parana
-  Sul --> RioGrandeDoSul
-  Sul --> SantaCatarina
+  S --> PR["Paraná"]
+  S --> RS["Rio Grande do Sul"]
+  S --> SC["Santa Catarina"]
 
 ```
